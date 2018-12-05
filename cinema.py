@@ -24,8 +24,7 @@ while True:
             if num_seats > 0:
                 print("Enjoy the film!")
                 films[choice] [1] = films[choice][1] - 1
-            print("Enjoy the film!")
-
+                
             else:
                 print("Sorry we are sold out")
         else:
