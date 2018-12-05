@@ -1,24 +1,16 @@
-# gives the place ea racer came in 
-
+# gives the place ea racer came in
+# used dictionary for cleaner code
 
 def choice_to_number(choice):
-    
-    if choice == "Usain":
-        return 1
-    elif choice == "Luke":
-        return 2
-    elif choice == "Mike":
-        return 3
+    race_dict = {'Usain': 1, 'Luke': 2, 'Mike': 3}
+    return race_dict[choice]
 
 def number_to_choice(number):
-    
-    if number == 1:
-        print('Usain')
-    elif number == 2:
-        print('Luke')
-    elif number == 3:
-        print('Mike')
+    race_dict = {1: 'Usain', 2:'Luke', 3: 'Mike'}
+    return race_dict[number]
 
-print(choice_to_number())
 
-# print(number_to_choice(3))
+
+# print(choice_to_number('Luke'))
+
+print(number_to_choice(3))
