@@ -1,3 +1,6 @@
+# Coin class-
+
+
 import random
 
 class Coin:
