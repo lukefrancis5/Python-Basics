@@ -23,7 +23,7 @@ while True:
 
             if num_seats > 0:
                 print("Enjoy the film!")
-                films[choice] [1] = films[choice][1] - 1
+                films[choice][1] = films[choice][1] - 1
                 
             else:
                 print("Sorry we are sold out")
